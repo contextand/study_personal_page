@@ -1,0 +1,89 @@
+/* UA resets */
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Typography */
+
+h1, h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Layouts */
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* Components */
+
+body {
+    background: #111;
+    color: white;
+}
+
+.header {
+    background: orangered;
+    display: flex;
+    padding: 2rem;
+}
+
+.header-profile {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 4px 20% 20% 4px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-meta {
+    padding: 0 1.8em;
+}
+
+.header-meta h1 {
+    font-size: 1.8rem;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-bottom: 0.3em;
+    line-height: 1;
+}
+
+.header-meta p {
+    font-weight: 200;
+    letter-spacing: 0.05em;
+}
+
+.contents {
+    background: gray;
+}
+
+.contents ul {
+    background: yellow;
+    padding: 2rem;
+    display: flex;
+}
+
+.contents li {
+    flex: 1 auto;
+}
+
+.box-img {
+    max-width: 100%;
+}
+
+.contents-box h2 {
+    color: #222;
+}
+
+.footer {
+    background: midnightblue;
+    color: dodgerblue;
+    text-align: center;
+    padding: 2rem;
+}
